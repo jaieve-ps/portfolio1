@@ -27,6 +27,6 @@ main{
     height: 110%;
 }
 .profile-box{
-
+    display:flex;
     text-align:center;
 }
