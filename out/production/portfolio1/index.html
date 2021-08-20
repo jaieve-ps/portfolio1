@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<!--    <script type="text/javascript" src="../resources/bootstrap-5.1.0/dist/js/jquery-3.4.1.min.js"></script>-->
+    <script type="text/javascript" src="../resources/bootstrap-5.1.0/dist/js/bootstrap.bundle.js"></script>
+    <link type="text/css" rel="stylesheet" href="../resources/bootstrap-5.1.0/dist/css/bootstrap.css" />
+    <!-- Custom styles for this template -->
+    <link type="text/css" rel="stylesheet" href="../resources/bootstrap-5.1.0/dist/css/myStyle.css" />
+    <title>Portfolio</title>
+</head>
+<body class="d-flex flex-column h-100" data-new-gr-c-s-check-loaded="14.1026.0" data-gr-ext-installed="">
+
+<header>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<!-- Begin page content -->
+<main role="main" class="flex-shrink-0">
+    <div class="container">
+        <h1 class="mt-5 pt-3">🖥 Portfolio</h1>
+        <div class="container">
+            <div class="card" style="width: 18rem;">
+                <img src="../resources/image/profile.png" class="card-img-top" alt="이미지 사진">
+                <div class="card-body">
+                    <h3 class="card-text text-uppercase center">developer</h3>
+                </div>
+            </div>
+        </div>
+        <div class="accordion" id="accordionExample">
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        BIO
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <h3>📄 Introduce</h3>
+                        <p>기계가 사람을 대체할지도 모른다는 공포감이 점점 커져가면서 대체될 수 없는 존재가 되고 싶어서 '식품생명공학' 전공에서 IT 개발 직군으로 전향한 비전공자입니다.<br/>
+                            현재 국비지원 훈련과정을 이수중이며 하루 8시간 이상 프로그래밍을 공부하고 있습니다.<br/>
+                            지속력과 습관을 기르기 위해 1일 1커밋 챌린지와 TIL(Today I Learned)를 하고 있습니다.<br/>
+                            요가와 명상을 진심으로 즐기며, 커피 한 잔을 곁들인 책을 읽는 시간을 사랑합니다.</p>
+                        <h5><a class="portfolio-link" href="https://github.com/jaieve">Github</a>&nbsp;<a class="portfolio-link" href="#">Tistory</a> </h5>
+                        <div class="card p-3"><strong>내가 하려고 하는 것은
+                            단지 전진하고 발전하는 것이다.</strong><br/>
+                            - Julian Hatfield</div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                       Used Skill
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div data-date="September 2015 – September 2016" class="card p-3">
+                            <h3>Java</h3>
+                            <h4>Job Title</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Accordion Item #3
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</main>
+
+<!--<footer class="footer mt-auto py-3">-->
+<!--    <div class="container">-->
+<!--        <span class="text-muted">Place sticky footer content here.</span>-->
+<!--    </div>-->
+<!--</footer>-->
+</body>
+</html>

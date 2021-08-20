@@ -1,0 +1,32 @@
+@import "../resources/bootstrap-5.1.0/dist/css/bootstrap.css"
+
+.portfolio-link:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.portfolio-link:visited {
+  color: grey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.portfolio-link:hover {
+  color: #585AE3;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.portfolio-link:active {
+  color: #0F12CC;
+  background-color: transparent;
+  text-decoration: underline;
+}
+main{
+    height: 110%;
+}
+.profile-box{
+
+    text-align:center;
+}
