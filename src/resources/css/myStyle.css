@@ -29,6 +29,7 @@ main{
 }
 .profile-box{
     width : revert;
+    box
     display:flex;
     text-align:center;
 }
